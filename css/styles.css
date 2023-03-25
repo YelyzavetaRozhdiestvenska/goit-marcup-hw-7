@@ -13,7 +13,11 @@
     --lite-slate: #8e8f99;
     --transition-duration-and-transition-timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+  
     
+
+
+  /*  
 html {
     box-sizing: border-box;
     }
@@ -43,8 +47,10 @@ color: var(--primary-text-color);
 font-family: 'Roboto', sans-serif;
 }
 ul {list-style: none;}
+*/
 
 /*header*/
+/*
 .header {
  border-bottom: 1px solid #E7E9FC;
 }    
@@ -174,6 +180,7 @@ ul {list-style: none;}
  
 
 /*hero*/
+/*
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -246,9 +253,9 @@ margin-bottom: 0;
     background-color: var(--button-color);
     color: var(--white-color);
 }
-
+*/
 /*section feature*/
-
+/*
 .feature {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -303,8 +310,9 @@ margin-bottom: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
+*/
 /*section work*/
+/*
 .work {
     padding-bottom: 120px;
 }
@@ -337,8 +345,9 @@ margin-bottom: 0;
 .work_item:not(:last-child) {
     margin-right: 24px;
 }
-
+*/
 /*section team*/
+/*
 .team {
     padding-top: 120px;
     padding-bottom: 110px;
@@ -440,6 +449,7 @@ background-color: var(--button-color);
 }
 
 /*Customers*/
+/*
 .customer {
     padding-top: 130px;
     padding-bottom: 120px;
@@ -509,6 +519,7 @@ border: 1px solid var(--button-color);
 }
 
 /*Footer*/
+/*
 .footer {
     background-color: var(--title-text-color);
     padding: 100px 15px;
@@ -604,6 +615,7 @@ footer .socialmedia_link:focus {
     background-color: var(--green);
 }
 /*footer form*/
+/*
 .footer-form {
     display: block;
     margin: 0;
@@ -693,6 +705,7 @@ footer .socialmedia_link:focus {
        
 
 /*section search*/
+/*
 .filter {
     padding-top: 96px;
     padding-bottom: 120px;  
@@ -827,6 +840,7 @@ footer .socialmedia_link:focus {
     transform: translate(0, 0);
 }
 /*Modal window*/
+/*
 .backdrop {
     position: fixed;
     left: 0;
@@ -881,6 +895,7 @@ footer .socialmedia_link:focus {
  }
 
 /*Modal form*/
+/*
 .modal-form {
     display: flex;
     flex-direction: column;
@@ -1054,3 +1069,4 @@ footer .socialmedia_link:focus {
 .modal-form-submit:focus {
     background-color: var(--button-color);
 }
+
