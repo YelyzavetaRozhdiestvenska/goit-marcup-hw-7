@@ -34,7 +34,12 @@
             <li class="nav_item"><a href="" class="nav_link">Contacts</a></li>
           </ul>
         </nav>
-        <button class="mobile-menu-open" type="button">
+        <button
+          class="mobile-menu-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
           <svg
             class="mobil-menu-icon"
             width="40"
@@ -61,8 +66,11 @@
         </address>
       </div>
       <div class="mobile-menu">
-        <div class="container mobile-menu-container">
-          <button class="mobile-menu-close-btn" type="button">
+        <div
+          class="container mobile-menu-container js-menu-container"
+          id="mobile-menu"
+        >
+          <button class="mobile-menu-close-btn js-close-menu" type="button">
             <svg
               class="mobile-menu-close-icon"
               width="8"
@@ -501,7 +509,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer">
+      <div class="container footer-content">
         <div class="footer_webstudio">
           <a href="./index.html" class="footer_logo">Web<span>Studio</span></a>
           <p class="footer_desc">
