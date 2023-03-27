@@ -131,11 +131,12 @@ z-index: 1000;
 .mobile-menu-container {
 position: relative;
 padding: 40px;
+min-height: 796px;
 }
 
 .mob_nav_list {
 padding-left: 0;
-padding-bottom: 0;
+padding-bottom: auto;
 margin-top: 0;
 margin-bottom: 284px;
 }
@@ -164,7 +165,7 @@ margin-top: 0;
 margin-bottom: 48px;
 }
 
-.mob_contacts_item:first-child  {
+.mob_contacts_item.tel  {
 margin-bottom: 40px;
 color: var(--accent-color);
 font-family: Roboto;
@@ -173,8 +174,7 @@ font-size: 36px;
 line-height: 1.1;
 }
 
-.mob_contacts_item {
-    
+.mob_contacts_list.mob_contacts_item:last-child {
 color: var(--primary-text-color);
 font-family: Roboto;
 font-weight: 500;
@@ -290,7 +290,7 @@ text-decoration: none;
     margin: 0;
 }
 .feature_item {
-    width: 396px;
+    
     margin-right: 0px;
 }
 .feature_wrap_icon {
@@ -341,7 +341,9 @@ text-decoration: none;
     padding-bottom: 0;
 
 }
-
+.team_item {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .team_list {
     display: flex;
     flex-direction: column;
@@ -351,11 +353,11 @@ text-decoration: none;
     padding: 0px;
 }
 .team_card {
-    width: 264px;
+    
     padding: 32px 16px;
     background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    text-align: center;
 }
 
 .team_title {
@@ -939,7 +941,11 @@ footer .socialmedia_link:focus {
 .modal-form-submit:focus {
     background-color: var(--button-color);
 }
-
+@media screen and (max-wigth: 767px) {
+   .modal {
+    width: 392px;
+   }
+}
 @media screen and (min-width: 480px) {
     .container {
     max-width: 428px;
@@ -1162,11 +1168,6 @@ width: 356px;
     flex-basis: calc((100%-48px)/2);
     
  }
-
-.team_title {
-text-align: start;
-}
-
 .customers_list {
 padding-left: 0px;
 gap: 74px 24px
@@ -1383,11 +1384,7 @@ gap: 74px 24px
     
     }
     
-    .team_item {
-    flex-basis: calc((100% - 72px) / 4);
-    }
-     
-    
+       
  .customer {
      padding-top: 120px;
      padding-bottom: 120px;
