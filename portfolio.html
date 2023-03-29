@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
@@ -33,6 +34,21 @@
             <li class="nav_item"><a href="" class="nav_link">Contacts</a></li>
           </ul>
         </nav>
+        <button
+          class="mobile-menu-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          type="button"
+        >
+          <svg
+            class="mobil-menu-icon"
+            width="40"
+            height="40"
+            aria-label="open-mobile-menu"
+          >
+            <use href="./images/symbol-defs.svg#icon-humburger"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts_list">
             <li class="contacts_item">
@@ -270,7 +286,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container footer">
+      <div class="container footer-content">
         <div class="footer_webstudio">
           <a href="./index.html" class="footer_logo">Web<span>Studio</span></a>
           <p class="footer_desc">
